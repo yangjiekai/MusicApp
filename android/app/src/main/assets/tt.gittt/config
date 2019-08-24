@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Gogul09/deep-drum.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = kai
+	merge = refs/heads/master
+[gui]
+	wmstate = normal
+	geometry = 893x435+156+156 175 196
+[remote "kai"]
+	url = https://github.com/yangjiekai/harddrumapp.git
+	fetch = +refs/heads/*:refs/remotes/kai/*

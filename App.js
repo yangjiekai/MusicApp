@@ -7,6 +7,7 @@
  */
 
 import React, {Fragment, Component} from 'react';
+import './shim';
 import HTML from 'react-native-render-html';
 // import {Asset} from "expo-asset";
 import {
@@ -25,6 +26,19 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+
+///////////////
+
+
+import StaticServer from 'react-native-static-server';
+import RNFS from 'react-native-fs';
+
+// create a path you want to write to
+let path = RNFS.DocumentDirectoryPath + '/www';
+
+
+/////////////////
 
 const App = () => {
  // return (
@@ -45,7 +59,8 @@ const App = () => {
         // domStorageEnabled={true}
       // />
 	  
- 
+ let server = new StaticServer(8080, 'file:///android_asset');
+
    return (
       <WebView
         style={{flex: 1}}

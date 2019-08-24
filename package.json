@@ -5,15 +5,20 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+ "postinstall": "node_modules/.bin/rn-nodeify --install crypto,fs,https --hack"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "expo-asset-utils": "^1.2.0",
     "react": "16.8.6",
     "react-native": "0.60.5",
+    "react-native-fs": "^2.14.1",
+    "react-native-level-fs": "^3.0.1",
     "react-native-render-html": "^4.1.2",
-    "react-native-webview": "^6.9.0"
+    "react-native-static-server": "^0.4.2",
+    "react-native-webview": "^6.9.0",
+    "rn-nodeify": "^10.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -27,5 +32,11 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "react-native": {
+    "fs": "react-native-level-fs"
+  },
+  "browser": {
+    "fs": "react-native-level-fs"
   }
 }
