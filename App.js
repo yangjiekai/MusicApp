@@ -60,7 +60,7 @@ const App = () => {
       // />
 	  
  let server = new StaticServer(8080, 'file:///android_asset');
-
+ 
    return (
       <WebView
         style={{flex: 1}}
