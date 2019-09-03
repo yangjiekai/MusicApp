@@ -66,7 +66,7 @@ const App = () => {
         style={{flex: 1}}
         originWhitelist={['*']}
         source={{uri:'file:///android_asset/index.html'}}
-        style={{ marginTop: 20 }}
+        style={{ marginTop: 0 }}
 		allowFileAccess={true}
 		allowUniversalAccessFromFileURLs={true}
         javaScriptEnabled={true}
