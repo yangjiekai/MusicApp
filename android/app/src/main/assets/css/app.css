@@ -95,7 +95,7 @@ html {
 .deepdrum-drumkit-info {
   width: 70px;
   height: 100%;
-  font-size: 9px;
+  font-size: 19px;
   border-radius: 5px;
   padding: 0 5px;
   color: #949494;
@@ -550,10 +550,12 @@ html {
   align-items: center; }
 
 .text-description {
-  color: #858585;
-  font-size: 11px;
+  color: #1a3969;
+  font-size: 23px;
   margin: 0px !important;
   font-family: "Muli";
+  font-weight: bold;
+  font-style: oblique;
   line-height: 20px; }
   @media screen and (max-width: 640px) {
     .text-description {
@@ -661,11 +663,11 @@ html {
 
 .deepdrum-pattern-tag {
   display: flex;
-  height: 5%;
+  height: 9%;
   padding-bottom: 1%; }
   @media screen and (max-width: 640px) {
     .deepdrum-pattern-tag {
-      height: 5%;
+      height: 9%;
       padding-bottom: 3%; } }
 
 .deepdrum-tag-holder {
@@ -684,8 +686,8 @@ html {
   background-color: #1c1c1f;
   color: #8d8d8d;
   border: none;
-  font-size: 8px;
-  padding: 0px 10px;
+  font-size: 18px;
+  padding: 0px 37px;
   cursor: pointer; }
 
 .deepdrum-tag-holder button:focus {
