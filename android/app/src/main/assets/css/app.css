@@ -851,10 +851,10 @@ html {
 .deepdrum-settings {
   background-image: url("../images/settings.png");
   background-repeat: no-repeat;
-  background-size: 20px;
+  background-size: 35px;
   background-position: center;
-  width: 25px;
-  height: 21px;
+  width: 100px;
+  height: 35px;
   border: none;
   background-color: transparent;
   cursor: pointer; }

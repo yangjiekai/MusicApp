@@ -214,7 +214,7 @@ function createUItuners() {
 
 
 	toggle_midi = new Nexus.Toggle('#toggle-midi', {
-		'size': [30,20],
+		'size': [100,35],
 		'state': false
 	});
 	toggle_midi.on('change',function(v) {
@@ -228,7 +228,7 @@ function createUItuners() {
 	});
 
 	radio_melody = new Nexus.RadioButton('#radio-melody',{
-	  'size': [70, 15],
+	  'size': [100, 35],
 	  'numberOfButtons': 3,
 	  'active': 0
 	});
@@ -269,7 +269,7 @@ function createUItuners() {
 
 
 	toggle_play_mode = new Nexus.Toggle('#toggle-play-mode', {
-		'size': [30,20],
+		'size': [100,35],
 		'state': false
 	});
 	toggle_play_mode.on('change',function(v) {
