@@ -141,13 +141,13 @@ html {
       padding: 5px; } }
   .deepdrum-control-box p {
     color: #ffffff;
-    font-size: 11px;
+    font-size: 40px;
     margin: 0px !important;
     font-family: "Muli";
     line-height: 20px; }
     @media screen and (max-width: 640px) {
       .deepdrum-control-box p {
-        font-size: 9px;
+        font-size: 40px;
         line-height: 20px; } }
   .deepdrum-control-box input[type="range"] {
     color: white; }
@@ -480,7 +480,7 @@ html {
 .text-property span {
   padding: 2px 5px;
   border-radius: 3px;
-  font-size: 11px;
+  font-size: 16px;
   background-color: #040c11;
   border: 1px solid #1e1d1f;
   color: #ffffff; }
@@ -491,19 +491,19 @@ html {
 .deepdrum-select {
   display: block;
   background-color: #f62e2e;
-  width: 90px;
+  width: 300px;
   padding: 5px;
   border: 1px solid #f62e2e;
   border-radius: 2px;
-  height: 2rem;
-  font-size: 11px;
+  height: 5rem;
+  font-size: 40px;
   font-weight: bold;
   color: #fff;
-  margin: 20px auto; }
+  margin: 10px auto; }
   @media screen and (max-width: 640px) {
     .deepdrum-select {
-      font-size: 10px;
-      height: 2rem;
+      font-size: 40px;
+      height: 5rem;
       margin: 10px auto; } }
 
 .deepdrum-select:focus {
@@ -893,15 +893,17 @@ html {
 
 .deepdrum-modal-settings h3 {
   color: #fff;
-  font-weight: 100; }
+  font-weight: 100; 
+  font-size:22px;
+}
 
 .deepdrum-modal-close {
   position: fixed;
   top: 10px;
   right: 15px;
   font-size: 10px;
-  width: 20px;
-  height: 20px;
+  width: 60px;
+  height: 60px;
   font-family: Roboto;
   color: black;
   border: none;
@@ -909,6 +911,7 @@ html {
   cursor: pointer;
   border-radius: 50%;
   font-weight: bold;
+  font-size:18px;
   transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
   z-index: 1000; }
 
@@ -919,16 +922,16 @@ html {
   transform: scale(1.2); }
 
 .deepdrum-modal-settings-holder {
-  width: 40%; }
+  width: 100%; }
   @media (min-width: 768px) and (max-width: 1024px) {
     .deepdrum-modal-settings-holder {
-      width: 40%; } }
+      width: 100%; } }
   @media screen and (max-width: 640px) {
     .deepdrum-modal-settings-holder {
       width: 100%; } }
 
 .deepdrum-modal-settings-container {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #1d1d1d; }
 
 .deepdrum-settings-flex {
@@ -944,7 +947,8 @@ html {
   color: #ffffff;
   flex: 1;
   text-align: left;
-  font-family: "Roboto"; }
+  font-family: "Roboto"; 
+  font-size:  15px;}
 
 .text-settings-value {
   font-size: 11px;
@@ -1304,3 +1308,8 @@ body{}
 
 
 /* /////////////scprit//////////// */
+
+canvas {
+  width: inherit;
+  display: inline-block;
+}
