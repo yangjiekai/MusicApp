@@ -71,6 +71,9 @@ const App = () => {
 		allowUniversalAccessFromFileURLs={true}
         javaScriptEnabled={true}
         domStorageEnabled={true}
+	cacheEnabled={true}
+	sharedCookiesEnabled={true}
+	
       />
   )
  };
