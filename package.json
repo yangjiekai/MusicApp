@@ -13,7 +13,7 @@
     "expo-asset-utils": "^1.2.0",
     "https-browserify": "0.0.1",
     "react": "16.8.6",
-    "react-native": "0.60.5",
+    "react-native": "0.62.3",
     "react-native-crypto": "^2.1.0",
     "react-native-fs": "^2.14.1",
     "react-native-level-fs": "^3.0.1",
